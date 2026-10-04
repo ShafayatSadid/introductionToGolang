@@ -15,13 +15,15 @@ func getNumbers(num1 int, num2 int) (int, int) {
 	return sum, mul
 }
 
+func printSomething (){
+	fmt.Println("Education must be free")
+}
+
+func sayHello(name string){
+	fmt.Println("Welcome to the Golang course, ", name)
+}
+
 func main() {
 
-	a := 10
-	b := 5
-
-	sum, mul := getNumbers(a, b)
-
-	fmt.Println("the sum is = ", sum)
-	fmt.Println("the multiplication is = ", mul)
+	sayHello("Shafayat")
 }
